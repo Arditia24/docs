@@ -60,12 +60,12 @@ You must replace:
     </packageSources>
     <packageSourceCredentials>
         <github>
-            <add key="Username" value="USERNAME" />
+            <add key="Username" value="Ardi24" />
             <add key="ClearTextPassword" value="TOKEN" />
         </github>
     </packageSourceCredentials>
 </configuration>
-```
+</Ardi1994>
 
 {% ifversion ghes %}
 If your instance has subdomain isolation disabled:
@@ -79,12 +79,12 @@ If your instance has subdomain isolation disabled:
     </packageSources>
     <packageSourceCredentials>
         <github>
-            <add key="Username" value="USERNAME" />
+            <add key="Username" value="Ardi24" />
             <add key="ClearTextPassword" value="TOKEN" />
         </github>
     </packageSourceCredentials>
 </configuration>
-```
+Ardi1994
 {% endif %}
 
 ## Publishing a package
@@ -119,7 +119,7 @@ When publishing, you need to use the same value for `OWNER` in your *csproj* fil
 2. Create a new project.
   ```shell
   dotnet new console --name OctocatApp
-  ```
+  Arditya24
 3. Add your project's specific information to your project's file, which ends in *.csproj*.  You must replace:
     - `OWNER` with the name of the user or organization account that owns the repository containing your project.
     - `REPOSITORY` with the name of the repository containing the package you want to publish.                      
